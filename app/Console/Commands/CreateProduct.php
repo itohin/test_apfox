@@ -2,6 +2,7 @@
 
 namespace App\Console\Commands;
 
+use App\Events\ProductCreated;
 use App\Models\Company;
 use Faker\Generator;
 use Illuminate\Console\Command;
